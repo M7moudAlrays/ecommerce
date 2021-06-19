@@ -1,0 +1,237 @@
+body
+{
+    background-color:#e6e6e6 ;
+    font-size: 18px;
+}
+/* Start Index Page */
+/* Start Login Form */
+
+.login
+{
+    border: solid 3px #5b5b5b ;
+    width: 400px ;
+    margin: 100px auto ;
+}
+.login h3
+{
+    color: #3c3c3c ;
+    text-align: center ;
+    
+}
+.login input
+{
+    margin-bottom: 10px ;
+}
+/* End Login Form */
+/* End Index Page */
+
+/* Start Bootstrap Edit */
+.navbar
+{
+    border-radius: 0 ;
+    margin-bottom: 0;
+}
+.navbar-brand
+{
+    font-size: 22px;
+}
+.nav>li>a , .navbar-brand
+{
+    padding: 15px 6px;
+}
+.navbar-inverse .navbar-nav > .open > a  ,
+.navbar-inverse .navbar-nav > .open > a:focus ,
+.navbar-inverse .navbar-nav > .open > a:hover
+{
+    background-color: #3498db ;   
+}  
+.dropdown-menu
+{
+    background-color: #3a7676 ;
+    max-width: 180px ;
+    padding: 0 ;
+    font-size: 1em ;
+    border: none ;
+    border-radius: 0px ;
+}
+.dropdown-menu >li >a
+{
+    color: #e2e2e2 ;
+    padding: 10 px 15px ;
+}
+.dropdown-menu >li >a:hover ,
+.dropdown-menu >li >a:focus 
+{
+    background-color:#808040 ;
+}
+/* End Bootstrap Edit */
+
+/*Start DashBoard Page*/
+.home .stat 
+{
+    border: 1px solid #c0c0c0;
+    padding: 10px;
+    font-size: 20px ;
+    border-radius: 10px ;
+    color: #eee;
+}
+.home .st-members
+{
+   background-color: #00caca;
+}
+.home .st-pending
+{
+   background-color: #6f00dd;
+}
+.home .st-items
+{
+   background-color: #d7006b;
+}
+.home .st-comments 
+{
+   background-color: #008c00;
+}
+.st-members a ,.st-pending a ,.st-items a
+{
+    color: #eee;
+}
+.home .st-members a:hover , .home .st-pending a:hover
+{
+    text-decoration: none ;
+}
+.home .stat span
+{
+    font-size: 25px ;
+    display: block ;
+}
+.latest 
+{
+    margin-top: 10px;
+}
+
+.list-unstyled li
+{
+    padding: 8px;
+    overflow: hidden ;
+}
+.list-unstyled li:nth-child(odd)
+{
+    background-color:#eee;
+}
+/*End DashBoard Page */
+
+/* start Members Page */
+
+h1
+{
+    font-size: 40px;
+    font-family: inherit ;
+    color: #515151;
+    font-weight: bold ;
+}
+
+.form-horizontal label
+{
+    font-size: 24px ;
+    font: bold ;
+}
+.form-control 
+{
+    background-color: #474792;
+    color: #eee;
+}
+
+.main-table tr:first-child td
+{
+    background-color: #333 ;
+    color: #fff ;
+}
+.main-table .btn
+{
+    padding: 3px 10px ;
+}
+.main-table .btn-success
+{
+    background-color: #2D005E ;
+}
+.main-table td
+{
+    background-color: #fff ;
+    text-align: center ;
+    vertical-align: middle !important ;
+}
+.fa-plus
+{
+    position: relative ;
+    right: 5px;
+}
+/* End Members page */
+
+/* Start Insert Page */
+div.alert-danger , div.alert-success , div.alert-info
+{
+    text-align: center ;
+    margin: 20px 100px ;
+}
+/* End Insert Page */
+
+/* Start Category Page */
+.cat
+{
+    margin: 0 0 25px ;
+    padding: 10px;
+    background-color: #eee;
+    position: relative ;
+}
+.cat .hidden-buttons
+{
+    position: absolute ;
+    right: 20px ;
+}
+.cat .hidden-buttons a
+{
+    margin: 5px;
+}
+.cat h2
+{
+    margin: 12px 0 ;
+    font-size: 32px ;
+    
+}
+.cat p
+{
+    display: block ; 
+}
+.cat .visibility ,.commenting ,.advertising
+{
+    background-color: #b90000;
+    padding: 5px;
+    color: #eee;
+    border-radius: 5px;
+    margin-right: 7px;
+}
+.cat .commenting
+{
+    background-color: #00005b;
+}
+.cat .advertising
+{
+    background-color: #00005b ;
+}
+.container .ordering
+{
+    margin-right: 30px;
+    padding-left: 10px; 
+}
+.container .ordering .active
+{
+    color: #f00;
+    font-weight: bold ;
+}
+/* End Category Page */
+
+/* Start Item Page */
+
+/* End Item Page */
+
+
